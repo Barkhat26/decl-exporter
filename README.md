@@ -1,7 +1,9 @@
 # decl-exporter
 declexporter is a tool for exporting of declarations from source code projects in c/c++. It was inspired by Pigaios export headers features.
 
-At the moment, the tool only works for source code projects built using make (Makefile) and for projects built without any build system.
+At the moment, the tool only works for source code projects built using make (Makefile) and for projects built without any build system. Also if source code project built using make requires running config, you have to run "config" script manually.
+
+This project was developed as part of an traineeship ["Summ3r 0f h4ck"](https://dsec.ru/about/traineeship/)
 
 ## Requirements
 This project requires the installation of the CLang's Python bindings. This project works only on Linux. ou can install in Debian based Linux distros the dependencies with the following command:
