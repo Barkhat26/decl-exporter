@@ -1,5 +1,5 @@
 # decl-exporter
-declexporter is a tool for exporting of declarations from source code projects in c/c++. It was inspired by [Pigaios](https://github.com/joxeankoret/pigaios) export headers features.
+declexporter is a tool for exporting of declarations from source code projects in c/c++. It was inspired by [Pigaios](https://github.com/joxeankoret/pigaios) export headers feature.
 
 At the moment, the tool only works for source code projects built using make (Makefile) and for projects built without any build system. Also if source code project built using make requires running config, you have to run "config" script manually.
 
